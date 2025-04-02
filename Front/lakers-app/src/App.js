@@ -1,8 +1,5 @@
 import React from "react";
-import "./App.css"; // Asegúrate de tener este archivo de estilos
-
-
-
+import "./App.css"; // Si usas Tailwind, no es necesario este import
 
 function App() {
   return (
@@ -12,9 +9,7 @@ function App() {
   );
 }
 
-
-
-function LakersApp() {
+function LakersApp() { 
   return (
     <div className="app">
       {/* Navbar */}
@@ -56,4 +51,4 @@ function LakersApp() {
   );
 }
 
-export default LakersApp;
+export default App;
